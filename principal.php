@@ -38,7 +38,7 @@
 
         <div class="right">
 
-            <a href="login.php" class="sair_btn">Sair</a>
+            <a href="index.php" class="sair_btn">Sair</a>
 
         </div>
 
