@@ -41,7 +41,7 @@
 
                 </div>
 
-                <button class="btn-login">Login</button> 
+                <button class="btn-login"> <a href="principal.php">Login</a></button> 
 
                 <button class="btn-cadastro"> <a href="cadastro.php">Cadastre-Se</a></button> 
 
