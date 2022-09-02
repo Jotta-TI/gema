@@ -38,12 +38,12 @@
 			</div>
 			<div class="input-box">
 				<label for="email">E-mail</label>
-				<input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+				<input id="email" type="email" name="email" placeholder="Digite seu e-mail">
 			</div>
 
 			<div class="input-box">
-				<label for="number">Prontuario</label>
-				<input id="number" type="tel" name="number" placeholder="Digite seu prontuario" required>
+				<label for="number">GU + Prontuario</label>
+				<input id="number" type="tel" name="number" placeholder=" GUXXXXXXX" required>
 			</div>
 
 			<div class="input-box">
