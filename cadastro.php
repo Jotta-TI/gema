@@ -43,7 +43,7 @@
 
 			<div class="input-box">
 				<label for="number">GU + Prontuario</label>
-				<input id="number" type="tel" name="number" placeholder=" GU0000000" required>
+				<input id="number" type="text" name="number" placeholder="Digite seu prontuário" required>
 			</div>
 
 			<div class="input-box">
