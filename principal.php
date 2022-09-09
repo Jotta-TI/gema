@@ -50,7 +50,7 @@
 
         <center>
 
-                <img src="assets/img/1200x600wp_-_Editado.png" class="imagem">
+                <img src="assets/img/fotografia.png" class="imagem">
                  <h2>Maria</h2>
 
         </center>
