@@ -21,9 +21,7 @@
 			<div class="title">
 				<h1>Cadastre-se</h1>
 			</div>
-			<div class="login-button">
-				<button><a href="index.php">Entrar</a></button>
-			</div>
+			
 		</div>
 
 		<div class="input-group">
@@ -74,7 +72,11 @@
 				<input id="male" type="radio" name="corpo" value="Discente">
 				<label for="male">Dicente</label>
 			</div>
-
+				
+			<div class="login-button">
+				<button><a href="index.php">Entrar</a></button>
+			</div>
+				
 			<div class="continue-button">
 				<button type="submit">Enviar</button>
 			</div>
