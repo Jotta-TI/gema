@@ -123,6 +123,11 @@ margin-bottom:10px;
 
 }
 
+.textfield  small{
+    visibility: hidden;
+}
+
+
 .textfield > input::placeholder {
 
 color: rgb(114, 117, 114);
