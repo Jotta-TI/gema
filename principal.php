@@ -152,8 +152,7 @@ color: #fff;
 
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-secondary"><a href="login.html" class="sair_btn">Sair</a></button>
+          <button type="button" class="btn btn-secondary"><a href="login.php" class="sair_btn">Sair</a></button>
           
         </div>
       </div>
