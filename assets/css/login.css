@@ -128,7 +128,38 @@ margin-bottom:10px;
 color: rgb(114, 117, 114);
 
 }
+/* Validação */ 
+.textfield.success input{
+	border: 2px solid #4ECA64;
+   
+    
+}
 
+.textfield.error input{
+	border: 2px solid #DB5A5A;
+   
+}
+.textfield.error small{
+	visibility: visible;
+	color: #DB5A5A;
+}
+.textfield.success small{
+	visibility: hidden;
+}
+.textfield.success i .img-success{
+	visibility: visible;
+
+}
+
+.textfield.error i .img-error{
+	visibility: visible;
+
+}
+.textfield i{
+	position: absolute;
+	right: 180px;
+    visibility: hidden;
+}
 .btn-login {
 
     width:100%;
@@ -197,7 +228,12 @@ color: rgb(114, 117, 114);
 
 
 
-
+@media only screen and (max-width:1280px) {
+    .textfield i{
+        right: 155px;
+    
+    }
+}
 
 
 
@@ -206,6 +242,10 @@ color: rgb(114, 117, 114);
 .card-login{
 
     width:85%;
+
+}
+    .textfield i{
+	right: 70px;
 
 }
 
@@ -261,7 +301,10 @@ color: rgb(114, 117, 114);
     width:70%;
     
 }
+.textfield i{
+	right: 95px;
 
+}
 
 }
 
