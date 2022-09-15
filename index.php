@@ -21,7 +21,7 @@
          <img src="assets/img/calendar.svg"  class="animação" alt="calendário">
     </div>
 
-    <div class="right-login">
+    <form action="principal.php" id="form" class="right-login">
 
                <div class="card-login">
                <h1><img src="assets/img/1200x600wp_-_Editado.png"  class="if" alt="if">&nbspLOGIN</h1> 
@@ -31,17 +31,24 @@
 
                   <label for="usuario">Usuário</label>
                   <input type="text" name="usuario" placeholder="Usuário">
-                
+                  <i><img class="img-success" src="assets/img/success-icon.svg" alt=""></i>
+                  <i><img class="img-error" src="assets/img/error-icon.svg" alt=""></i>
+                    
+                   <small> Error message </small>
                 </div>
 
                 <div class="textfield">
 
                 <label for="senha">Senha:</label>
                 <input type="password" name="senha" placeholder="Senha">
-
+                <i><img class="img-success" src="assets/img/success-icon.svg" alt=""></i>
+                <i><img  class="img-error" src="assets/img/error-icon.svg" alt=""></i>
+                    
+                 <small> Error message </small>
+                  
                 </div>
 
-                <button class="btn-login"> <a href="principal.php">Login</a></button> 
+                <button class="btn-login">Login</button> 
 
                 <button class="btn-cadastro"> <a href="cadastro.php">Cadastre-Se</a></button> 
 
@@ -51,8 +58,9 @@
                 </div>
 
         
-    </div>
+    </form>
     
+    <script type="text/javascript" src="assets/js/index.js"></script>
     
 </body>
 </html>
