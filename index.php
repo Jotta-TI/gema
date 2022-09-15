@@ -48,7 +48,7 @@
                   
                 </div>
 
-                <button class="btn-login">Login</button> 
+                <button type="submit" class="btn-login">Login</button> 
 
                 <button class="btn-cadastro"> <a href="cadastro.php">Cadastre-Se</a></button> 
 
