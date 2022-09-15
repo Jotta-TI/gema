@@ -152,7 +152,7 @@ color: #fff;
 
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary"><a href="login.php" class="sair_btn">Sair</a></button>
+          <button type="button" class="btn btn-secondary"><a href="index.php" class="sair_btn">Sair</a></button>
           
         </div>
       </div>
