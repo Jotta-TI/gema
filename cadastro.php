@@ -73,7 +73,7 @@
 				<label for="male">Dicente</label>
 			</div>
 				
-			<div class="login-button">
+			<div class="continue-button">
 				<button><a href="index.php">Entrar</a></button>
 			</div>
 				
