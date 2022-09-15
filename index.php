@@ -30,7 +30,7 @@
                 <div class="textfield">
 
                   <label for="usuario">Usuário</label>
-                  <input type="text" name="usuario" placeholder="Usuário">
+                  <input type="text"id="usuario" name="usuario" placeholder="Usuário">
                   <i><img class="img-success" src="assets/img/success-icon.svg" alt=""></i>
                   <i><img class="img-error" src="assets/img/error-icon.svg" alt=""></i>
                     
@@ -40,7 +40,7 @@
                 <div class="textfield">
 
                 <label for="senha">Senha:</label>
-                <input type="password" name="senha" placeholder="Senha">
+                <input type="password" id="senha" name="senha" placeholder="Senha">
                 <i><img class="img-success" src="assets/img/success-icon.svg" alt=""></i>
                 <i><img  class="img-error" src="assets/img/error-icon.svg" alt=""></i>
                     
