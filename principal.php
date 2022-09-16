@@ -110,7 +110,7 @@ color: #fff;
             <ion-icon name="menu-outline" id="sidebar_btn"></ion-icon>
           </button>
              <a class="navbar-brand">
-          <img src="assets/img/logo do sistema GEMA.jpg"
+          <img src="assets/img/logoGEMA.jpg"
           style="width:40px;"
           class="rounded-pill">
           </a>
