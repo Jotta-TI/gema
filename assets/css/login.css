@@ -146,7 +146,7 @@ color: rgb(114, 117, 114);
 }
 .textfield.error small{
 	visibility: visible;
-	color: #DB5A5A;
+	color:#000;
 }
 .textfield.success small{
 	visibility: hidden;
