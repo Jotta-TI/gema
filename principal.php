@@ -109,7 +109,12 @@ color: #fff;
           <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <ion-icon name="menu-outline" id="sidebar_btn"></ion-icon>
           </button>
-
+             <a class="navbar-brand">
+          <img src="\assets\img\logo do sistema GEMA.jpg"
+          alt="GEMA"
+          style="width:40px;"
+          class="rounded-pill">
+          </a>
           <h3>G.E.M.A<span> - Gerenciador de Eventos Mediados Acadêmicos </span> </h3>
 
         </div>
