@@ -114,7 +114,7 @@ color: #fff;
           style="width:40px;"
           class="rounded-pill">
           </a>
-          <h3>G.E.M.A<span> - Gerenciador de Eventos Mediados Acadêmicos </span> </h3>
+          <h3>G.E.M.A</h3>
 
         </div>
 
