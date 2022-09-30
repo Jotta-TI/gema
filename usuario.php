@@ -33,6 +33,8 @@
               <button><a href="index.php">Entrar</a></button>
             </div>
               <br>
+                  <br>
+                  <br>
             <div class="continue-button">
               <button type="submit">Enviar Código</button>
             </div>
