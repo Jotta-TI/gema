@@ -35,7 +35,7 @@ $emailp   = (isset($_POST ['email']) )?$_POST["email"]: null;
 $nCompleto = $nome." ".$last;
 $nome = $nCompleto;
 
-require "/home/hostdeprojetos/public_html/testejotati/email/Email.class.php";
+require "/home/hostdeprojetos/public_html/gema/email/Email.class.php";
 //include 'usuario.php';
 
 use email\Email;
