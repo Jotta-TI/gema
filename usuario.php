@@ -51,7 +51,7 @@ $email->send_gmail();
 //header("Location: $confirmar ");
 //			die();
 
-
+/*
 $_SESSION['nome'] = $nome;
 
 $_SESSION['senha'] = $senha;
@@ -62,7 +62,7 @@ $_SESSION['prontuario'] = $prontuario;
 
 $_SESSION['corpo_academico'] = $corpo_academico;
 
-$_SESSION['cdg'] = $cdg;
+$_SESSION['cdg'] = $cdg;*/
 ?>
       <!DOCTYPE html>
       <html lang="pt-br">
