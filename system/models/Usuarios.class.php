@@ -1,5 +1,5 @@
 <?php
-include_once '/home/hostdeprojetos/public_html/testejotati/system/databases/DBConnection.class.php';
+include_once '/home/hostdeprojetos/public_html/system/databases/DBConnection.class.php';
 
 
 	class Usuarios  {
