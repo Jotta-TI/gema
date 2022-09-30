@@ -1,212 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:ital,wght@0,200;1,100;1,200&family=Smooch+Sans:wght@300;400;900&display=swap');
+.modal{
 
-* {
-
-margin: 0;
-padding: 0;
-font-family: 'Poppins', sans-serif;
-
-}
-
-/*Menu parte superior onde esta G.E.M.A*/
-
-header { /*Aqui modifica as caracteristicas gerais da div header que tem na parte superior do site*/
-
-
-position: fixed;
-background-color: #67A665;
-padding: 20px;
-width: 100%;
-height:30px;
-
-
-}
-
-.left { /*Aqui modifica as caracteristicas gerais da div left que tem na parte superior do site*/
-
-   
-    height:50px;
-    margin-top:-20px;
-}
-
-.left h3{ /*Aqui modifica as caracteristicas da palavra G.E.M.A que tem na parte superior do site*/
-
-color: #fff;
-margin: 0;
-text-transform: uppercase;
-font-size: 22px;
-font-weight: 800;
-margin-left:50px;
-margin-top:20px;
-width: 50%;
-
-
-}
-
-.left span{ /*Aqui modifica as caracteristicas das palavras Gerenciador de Eventos Mediados Acadêmicos que tem na parte superior do site*/
-
-
-color: #b2d3b1;
-
-
+    width: 300px;
 }
 
 
-.sair_btn { /*Aqui modifica as caracteristicas gerais do botão sair que tem na parte superior do site*/
+.modal-content{
 
-padding:5px;
-background: #fff;
-text-decoration: none;
-float: right;
-margin-top: -50px;
-margin-right: 40px;
-border-radius: 2px;
-font-size: 15px;
-font-weight: 1000;
-color:#3E8C3B;
-transition:0.5s;
-transition-property:background;
+    width: 300px;
+    background-color: #9abf99;
 
 }
 
-.sair_btn:hover { /*Aqui modifica as caracteristicas de quando passa o mouse no botão sair que tem na parte superior do site*/
+.list-group-item{
 
-    background: #b2d3b1;
-    
-}
-
-label #sidebar_btn { /*Aqui modifica as caracteristicas do icone de menu que tem na parte superior do site*/
-
-    z-index: 1;
-    position: relative;
-    left:10px;
-    color: #fff;
-    font-size: 25px;
-    margin: 5px 0;
-    cursor: pointer;
-    transition:0.5s;
-    transition-property:color;
-    margin-top:-120px;
-    bottom: 18px;
-    
-
-}
-
-
-label #sidebar_btn:hover{ /*Aqui modifica as caracteristicas de quando passa o mouse no icone de menu que tem na parte superior do site*/
-
-    color: #9abf99;
-}
-
-
-
-
-/*Menu parte esquerda*/
-
-.sidebar {  /*Aqui modifica as caracteristicas da div que tem todo o contúdo do menu do lado esquerdo*/
-
-position: fixed;
-width:250px ;
-height: 100%;
-margin-top:70px;
-padding-top:30px;
-left:0;
-background-color: #9abf99;
-transition:0.5s;
-transition-property:left;
-
-
-}
-
-.sidebar .imagem{ /*Aqui modifica as caracteristicas da imagem do if que tem no menu do lado esquerdo*/
-
-    width:100px ;
-    height:100px ;
-    border-radius:100px ;
-}
-
-.sidebar h2{ /*Aqui modifica as caracteristicas do titulo maria no menu do lado esquerdo*/
-
-color: #fff;
-margin-top: 0;
-margin-bottom: 20px;
-
-}
-
-.sidebar a{   /*Aqui modifica as caracteristicas do titulo painel,formulario,galeria,sobre,configuração*/
-
-    color: #fff;
-    display: block;
-    width: 100%;
-    line-height:60px;
-    text-decoration: none;
-    padding-left: 40px;
-    box-sizing: border-box;
-    transition:0.5s;
-    transition-property:background;
-
-}
-
-.sidebar a:hover{ /*Aqui modifica as caracteristicas de quando alguem passa o mouse em cima dos titulos painel,formulario,galeria,sobre,configuração*/
-
-    background: #67A665;
-    
-}
-
-.sidebar ion-icon{ /*Aqui modifica as caracteristicas dos icones presentes ao lado do titulo painel,formulario,galeria,sobre,configuração*/
-
-    padding-right: 10px;
-   
-
-
-    
-}
-
-
-
-/*Efeito para o menu do lado esquerdo movimentar e diminuir*/
-
-#check:checked ~ .sidebar {
-
-
-left: -190px;
-
-
-}
-
-#check:checked ~ .sidebar a span {
-
-   display: none;
-    
-}
-
-#check:checked ~ .sidebar a {
-      font-size:20px;
-      margin-left:170px;
-      width:80px;
+     background-color: #9abf99;
      
 }
 
+.list-group-item:hover{
 
-
-.content .imagem1 {
-
- height: 80vh;
- width: 80vw;
- margin-left:137px;
- margin-top: 95px;
- 
- 
-}
-
-#check:checked ~ .content {
-
-margin-left: 60px;
+background-color: #67A665;
 
 }
 
-#check {
+.imagem {
 
-display:none;
+width:100px ;
+height:100px ;
+border-radius:100px ;
+margin-left: 75px;
 
 }
+
+
+#sidebar_btn {
+
+
+left:1px;
+color: #fff;
+font-size: 25px;
+margin: 5px 0;
+cursor: pointer;
+transition:0.5s;
+transition-property:color;
+bottom: 8px;
+
+}
+
+.sair_btn {
+
+text-decoration: none;
+color: #fff;
+
+}
+
+.sair_btn:hover{
+
+
+color: #fff;
+
+}
+
+
