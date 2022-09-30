@@ -1,4 +1,4 @@
-<?php
+<?php/*
 function generatePassword($qtyCaraceters = 8){
   //Letras minúsculas embaralhadas
   $smallLetters = str_shuffle('abcdefghijklmnopqrstuvwxyz');
@@ -25,7 +25,7 @@ function generatePassword($qtyCaraceters = 8){
 
 $cdg =  generatePassword();  
 echo $cdg; 
-/*
+
 $senha             = (isset($_POST['password']) )?$_POST["password"]: null;
 $nome             = (isset($_POST['firstname']) )?$_POST["firstname"]: null;
 $last            = (isset($_POST['lastname']) )?$_POST["lastname"]: null;
