@@ -17,7 +17,7 @@
 
 
     <div class="left-login">
-        <h1>G.E.M.A <br> Gerenciador de Eventos Mediados Acadêmicos.</h1>
+        <h1>G.E.M.A <br> Gerenciador de Eventos Mediados Acadêmicos.</h1><br>
         <img src="assets/img/gema-removeb.png"  class="animação" alt="calendário" style="width: 25vw;">
     </div>
 
