@@ -1,6 +1,6 @@
 <?php
 
-require_once "system\models\Usuarios.class.php";
+require_once "/home/hostdeprojetos/public_html/testejotati/system/models/Usuarios.class.php";
 session_start(); 
 $id_tipo_usuario = 2;
 $nome = $_SESSION['nome'];
