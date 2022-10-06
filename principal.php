@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-<body >
+<body>
 
    <nav class="navbar navbar-light shadow" style="background-color: #67A665;">
         
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
           </button>
 
 
-          <a class="navbar-brand1" href="principal.html">
+          <a class="navbar-brand1" href="principal.php">
             <span>G.E.M.A</span>
           </a>
 
