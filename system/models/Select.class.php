@@ -10,6 +10,7 @@ include_once '/home/hostdeprojetos/public_html/system/databases/DBConnection.cla
 		function __construct( $usuario, $senha){
 			 $this->setUsuario( $usuario );
 			 $this->setSenha( $senha );
+			echo "FOI";
 		}
 		public function select(){
 		    $conn = new DBConnection();
