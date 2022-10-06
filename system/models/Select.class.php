@@ -15,7 +15,7 @@ include_once '/home/hostdeprojetos/public_html/system/databases/DBConnection.cla
 		    $conn = new DBConnection();
 			$SqlCommand = "select * from `hostdeprojetos_gema`.`usuario` where prontuario = '".$this->getUsuario()."' AND senha = '".$this->getSenha()."'";
 		    
-		 //echo $SqlCommand;
+		 echo $SqlCommand;
 		  $result = $conn->query($SqlCommand);
           
           if($result->num_rows > 0){
