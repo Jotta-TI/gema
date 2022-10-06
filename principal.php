@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <body>
 
-   <nav class="navbar navbar-light shadow" style="background-color: #67A665;">
+   <nav class="navbar navbar-light shadow fixed-top"  style="background-color: #67A665;">
         
        <div class="container-fluid">
 
