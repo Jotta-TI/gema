@@ -21,7 +21,7 @@
         <img src="assets/img/gema-removeb.png"  class="animação" alt="calendário" style="width: 25vw;">
     </div>
 
-    <form action="principal.php" id="form" class="right-login">
+    <form action="select.php" method="post" id="form" class="right-login">
 
                <div class="card-login">
                <h1><img src="assets/img/1200x600wp_-_Editado.png"  class="if" alt="if">&nbspLOGIN</h1> 
