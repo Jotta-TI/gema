@@ -16,9 +16,9 @@ include_once '/home/hostdeprojetos/public_html/gema/system/databases/DBConnectio
 		    $conn = new DBConnection();
 			$SqlCommand = "select * from `hostdeprojetos_gema`.`usuario` where prontuario = '".$this->getUsuario()."' AND senha = '".$this->getSenha()."'";
 		    
-		 echo $SqlCommand;
+		//echo $SqlCommand;
 		  $result = $conn->query($SqlCommand);
-			//echo $SqlCommand;
+			
           
           if($result->num_rows > 0){
                 header('Location: principal.php');
