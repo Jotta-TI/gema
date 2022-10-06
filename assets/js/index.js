@@ -6,10 +6,14 @@ const password = document.getElementById('senha')
 form.addEventListener('submit', (e) => {
     e.preventDefault()
 
-    checkInputs()
-})
+    if(checkInputs()){
+        e.target.submit();
+    }
+});
 
 function checkInputs() {
+    // flag to submit form
+    const status = true;
 
     const usuarioValue = usuario.value.trim()
     const senhaValue = senha.value.trim()
@@ -19,6 +23,7 @@ function checkInputs() {
         // mostrar erro
         // add classe
         setErrorFor(usuario, 'Preencha esse campo')
+        status = false;
     } else {
         // adicionar a classe de sucesso
         setSuccessFor(usuario)
@@ -28,14 +33,17 @@ function checkInputs() {
         // mostrar erro
         // add classe
         setErrorFor(senha, 'Preencha esse campo')
+        status = false;
 
     } else if(senhaValue.length < 8) { 
         setErrorFor(senha, 'Senha deve ter mais que 8 caracteres')
+        status = false;
     } else {
         // adicionar a classe de sucesso
         setSuccessFor(senha)
-		window.location.assign("principal.php");
+		//window.location.assign("select.php");
     }
+    return status;
 
 }
 function setErrorFor(input, message) {
