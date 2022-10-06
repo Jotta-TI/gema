@@ -17,6 +17,7 @@ include_once '/home/hostdeprojetos/public_html/system/databases/DBConnection.cla
 		    
 		 echo $SqlCommand;
 		  $result = $conn->query($SqlCommand);
+			echo $SqlCommand;
           
           /*if($result->num_rows > 0){
                 header('Location: principal.php');
