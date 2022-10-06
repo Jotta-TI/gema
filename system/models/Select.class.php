@@ -19,14 +19,14 @@ include_once '/home/hostdeprojetos/public_html/system/databases/DBConnection.cla
 		  $result = $conn->query($SqlCommand);
 			echo $SqlCommand;
           
-          /*if($result->num_rows > 0){
+          if($result->num_rows > 0){
                 header('Location: principal.php');
             }
             else{
                 echo "<script>alert('Usuario e/ou Senha incorreto! Tente novamente.');location.href=\"index.php\";</script>";
                
 
-            }*/
+            }
 		  
 		}
 		public function toString(){
