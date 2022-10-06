@@ -10,7 +10,7 @@ include_once '/home/hostdeprojetos/public_html/gema/system/databases/DBConnectio
 		function __construct( $usuario, $senha){
 			 $this->setUsuario( $usuario );
 			 $this->setSenha( $senha );
-			echo "FOI";
+			
 		}
 		public function select(){
 		    $conn = new DBConnection();
@@ -18,7 +18,7 @@ include_once '/home/hostdeprojetos/public_html/gema/system/databases/DBConnectio
 		    
 		 echo $SqlCommand;
 		  $result = $conn->query($SqlCommand);
-			echo $SqlCommand;
+			//echo $SqlCommand;
           
           if($result->num_rows > 0){
                 header('Location: principal.php');
