@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <li class="list-group-item"> <ion-icon name="calendar-outline"></ion-icon> <span>Eventos no Calendário</span></li>
                 <li class="list-group-item"> <ion-icon name="settings-outline"></ion-icon><span>Processos</span></li>
                 <li class="list-group-item"><ion-icon name="chatbox-outline"></ion-icon><span>Notificações</span></li>
-                <li class="list-group-item"><ion-icon name="person-circle-outline"></ion-icon><span>Conta</span></li>
+                <li class="list-group-item"><ion-icon name="person-circle-outline"></ion-icon><span><a href="conta.php">Conta</a></span></li>
         </ul>
 
        
