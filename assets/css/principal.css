@@ -10,10 +10,14 @@
      background-color: #9abf99;
      
 }
+.list-group-item:link{
+    text-decoration: none;
+}
 
 .list-group-item:hover{ /*aqui meche na cor que fica quando passa o mouse na caixa do texto dentro do menu (Painel,Eventos no Calendário,Processos,Notificações e Conta)*/
 
 background-color: #67A665;
+    text-decoration: none;
 
 }
 
