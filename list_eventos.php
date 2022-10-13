@@ -6,7 +6,8 @@
  * porém lembre-se de conceder os créditos ao desenvolvedor.
  */
 
-include 'conexao.php';
+include '/home/hostdeprojetos/public_html/gema/conexao.php';
+
 
 $query_events = "SELECT id, title, color, start, end FROM events";
 $resultado_events = $conn->prepare($query_events);

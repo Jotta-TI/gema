@@ -7,8 +7,8 @@
  */
 
 define('HOST', 'localhost');
-define('USER', 'root');
-define('PASS', 'senha');
+define('USER', 'hostdeprojetos_empresajotati');
+define('PASS', '03060903jjj');
 define('DBNAME', 'hostdeprojetos_gema');
 
 $conn = new PDO('mysql:host=' . HOST . ';dbname=' . DBNAME . ';', USER, PASS);
