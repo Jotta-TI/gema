@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 locale: 'pt-br',
                 plugins: ['interaction', 'dayGrid'],
                 //defaultDate: '2019-04-12',
-                editable: true,
+                editable: false,
                 eventLimit: true,
                 events: 'list_eventos.php',
                 extraParams: function () {
