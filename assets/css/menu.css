@@ -1,0 +1,473 @@
+
+
+.modal-content{ /*aqui modifica a caixa inteira do menu que aparece do lado no site */
+
+    width: 300px;
+    background-color: #9abf99;
+
+}
+
+.list-group-item{ /*aqui modifica a cor da caixa em que as palavras do menu (Painel,Eventos no Calendário,Processos,Notificações e Conta) estão*/
+
+     background-color: #9abf99;
+     
+}
+
+.list-group-item:hover{ /*aqui meche na cor que fica quando passa o mouse na caixa do texto dentro do menu (Painel,Eventos no Calendário,Processos,Notificações e Conta)*/
+
+background-color: #67A665;
+
+}
+
+.list-group-item span{ /*aqui meche no texto dentro do menu (Painel,Eventos no Calendário,Processos,Notificações e Conta)*/
+
+margin-left:15px;
+
+}
+
+.acesso1{
+
+    background-color: #fff;
+    height: 265px;
+}
+
+.acesso1 span {
+
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-size:22px;
+    margin-left: 20px;
+    
+    
+}
+
+
+.acesso {
+
+    background-color: #fff;
+}
+
+.acesso span {
+
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-size:22px;
+    margin-left: 20px;
+    
+    
+}
+
+.emailnome {
+
+   
+    margin-left:20px;
+}
+
+.emailnome:hover {
+
+    color: #000;
+}
+
+.senhanome {
+
+    margin-left:20px;
+    
+}
+
+.senhanome:hover {
+
+    color: #000;
+}
+
+.eventos {
+
+    margin-top: -08px;
+    margin-left:20px;
+}
+
+.eventos:hover{
+
+    color: #000;
+}
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 20px;
+    /*background-color: #67A665;*/
+
+  }
+.card {
+
+    height: 160px;
+    margin-top: 5px;
+    
+}
+
+
+
+
+  
+ 
+
+.imagem1 { /*modifica as caracteristicas da imagem que está no meio da pagina*/
+
+width:100px ;
+height:100px ;
+border-radius:100px ;
+margin-left: 40px;
+margin-top:25px;
+
+}
+
+h3{
+
+    margin-left: 200px;
+    margin-top: -110px;
+    font-family:'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+h5 {
+
+
+    /*font-family:Georgia, 'Times New Roman', Times, serif;*/
+    /*background-color: #7bbd79;*/
+    height: 30px;
+    width:300px;
+    margin-left: 11px;
+    margin-top: 20px;
+    
+   
+    
+  
+    
+
+    
+    
+}
+
+#span1 {
+
+    color: #000;
+    /*font-family:'Arial Narrow', Arial, sans-serif;*/
+    margin-left:20px;
+    margin-top: 30px;
+}
+
+#span2 {
+
+    color: #000;
+    /*font-family:'Arial Narrow', Arial, sans-serif;*/
+    margin-left:20px;
+    margin-top: 20px;
+    font-size:20px;
+}
+
+
+
+.aa span{
+
+    color:#000;
+    /*font-family:'Arial Narrow', Arial, sans-serif;*/
+    margin-left:20px;
+}
+
+
+.editarnome {
+
+    margin-left: 200px;
+    margin-top: 5px;
+    
+    
+}
+
+.editarnome:hover{
+
+    color: #000;
+    text-decoration-color:#000;
+}
+.aa{
+
+    background-color: #fff;
+    margin-top: 60px;
+    border: solid 1px rgb(221, 216, 216);
+    border-radius:10px ;
+    margin-top:25px;
+    
+}
+
+
+
+
+.imagem2 { /*modifica as caracteristicas da imagem que está no inicio do menu*/
+
+    width:100px ;
+    height:100px ;
+    border-radius:100px ;
+    margin-left: 75px;
+    
+    }
+    
+
+
+#sidebar_btn { /*aqui modifica as caracteristicas do icone de menu que temos na navbar*/
+
+
+left:1px;
+color: #fff;
+font-size: 25px;
+margin: 5px 0;
+cursor: pointer;
+transition:0.5s;
+transition-property:color;
+bottom: 8px;
+
+}
+
+.sair_btn { /*aqui modifica as caracteristicas do botão sair que temos no menu lateral do site*/
+
+text-decoration: none;
+color: #fff;
+
+}
+
+.sair_btn:hover{/*aqui modifica as caracteristicas de quando o mouse passa em cima do botão sair*/
+
+
+color: #fff;
+
+}
+#logo{ /*Imagem Gema presente no menu*/
+
+    width:45px;
+    margin-left:15px;
+
+   
+}
+
+
+.navbar-brand1 /*Título Gema no Menu*/
+
+{
+
+margin-left: 60px;
+color: #b2d3b1;
+text-decoration: none;
+position: fixed;
+font-size: 18px;
+
+
+
+}
+
+a:hover {
+
+    color: #fff;
+}
+
+.navbar-brand span{ /*Título Gerenciador de Eventos Mediados Acadêmicos no Menu*/
+
+    color: #b2d3b1;
+
+
+}
+
+
+
+@media only screen and (max-width:1760px) { /*modifica as caracteristicas especificadas aqui quando a tela esta no maximo desse tamanho*/
+
+    
+
+    .navbar-brand span {
+   
+
+        display: none;
+            
+    
+    }
+
+      
+}
+
+
+
+@media only screen and (max-width:1330px) { /*modifica as caracteristicas especificadas aqui quando a tela esta no maximo desse tamanho*/
+
+  
+
+    .navbar-brand span {
+   
+
+        display: none;
+            
+    
+    }
+
+    h3{
+        font-size: 25px;
+        margin-left:185px;
+        margin-top:-110px;
+        
+        
+    }
+
+    .editarnome {
+
+        margin-left: 185px;
+        margin-top:0px;
+       
+        
+    }
+
+    .imagem1 {
+
+        margin-left: 42px;
+        margin-top:25px;
+    }
+
+      
+}
+
+
+
+@media only screen and (max-width:950px) { /*modifica as caracteristicas especificadas aqui quando a tela esta no maximo desse tamanho*/
+   
+
+    .navbar-brand span {
+   
+
+        display: none;
+            
+    
+    }
+
+    h3{
+        font-size: 22px;
+        margin-left:145px;
+        margin-top:-115px;
+        
+        
+    }
+
+    .editarnome {
+
+        margin-left: 145px;
+        margin-top:0px;
+       
+        
+    }
+
+    .imagem1 {
+
+        margin-left: 22px;
+        margin-top:25px;
+    }
+
+  
+      
+}
+
+@media only screen and (max-width:770px) {
+
+
+h3{
+    font-size: 20px;
+    margin-left:145px;
+    margin-top:-110px;
+    
+    
+}
+
+.imagem1 {
+
+    margin-left: 22px;
+    margin-top:25px;
+}
+
+.editarnome {
+
+    margin-left: 145px;
+    margin-top:0px;
+   
+    
+}
+
+.eventos {
+
+    margin-top: -08px;
+    margin-left:20px;
+}
+
+#span2{
+
+    font-size: 15px;
+    margin-top:10px;
+}
+}
+
+
+
+
+@media only screen and (max-width:600px) { /*modifica as caracteristicas especificadas aqui quando a tela esta no maximo desse tamanho*/
+
+
+   
+   
+    .navbar-brand span {
+   
+
+    display: none;
+        
+
+    }
+    .fc-toolbar h2 {
+    font-size: 1.5em;
+    }
+
+    .imagem1 { /*modifica as caracteristicas da imagem que está no meio da pagina*/
+
+        width:110px ;
+        height:110px ;
+        border-radius:100px ;
+        margin-left: 25px;
+        margin-top:25px;
+        
+        }
+    
+        h3{
+
+            
+            margin-top: -125px;
+            margin-left: 160px;
+            font-size: 18px;
+            
+        
+        
+        }
+        .editarnome {
+
+            margin-left: 160px;
+            margin-top: 5px;
+           
+            
+        }
+
+
+        h5{
+
+            
+            margin-top: 25px;
+            margin-left: 20px;
+            font-size: 18px;
+        
+        
+        }
+
+      
+        
+        
+
+}
+
+
