@@ -207,13 +207,10 @@
 
                 <div class="modal-body">
           
-                <ul class="list-group list-group-flush">
-                <li class="list-group-item"><ion-icon name="desktop-outline"></ion-icon> <span>Painel</span></li> 
-                <li class="list-group-item"> <ion-icon name="calendar-outline"></ion-icon> <span>Eventos no Calendário</span></li>
-                <li class="list-group-item"> <ion-icon name="settings-outline"></ion-icon><span>Processos</span></li>
-                <li class="list-group-item"><ion-icon name="chatbox-outline"></ion-icon><span>Notificações</span></li>
-                <li class="list-group-item"><ion-icon name="person-circle-outline"></ion-icon><span>Conta</span></li>
-                </ul>
+                <a href="principal.php"><li class="list-group-item"><ion-icon name="desktop-outline"></ion-icon> <span>Painel</span></li> </a>
+                <a href="eventos.php"><li class="list-group-item"> <ion-icon name="calendar-outline"></ion-icon> <span>Eventos no Calendário</span></li></a>
+                <a href="#"><li class="list-group-item"> <ion-icon name="settings-outline"></ion-icon><span>Processos</span></li></a>
+                <a href="#"><li class="list-group-item"><ion-icon name="person-circle-outline"></ion-icon><span>Conta</span></li></a>
 
                  </div>
 
