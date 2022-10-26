@@ -1,4 +1,4 @@
-.modal-content{ /*aqui modifica a caixa inteira do menu que aparece do lado no site */
+#exampleModal .modal-content{ /*aqui modifica a caixa inteira do menu que aparece do lado no site */
 
     width: 300px;
     background-color: #9abf99;
